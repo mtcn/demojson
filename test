@@ -1,0 +1,86 @@
+[
+  {
+    "id": "a3319bb6-c5a3-4bb8-839b-edb1e748c74c",
+    "name": "profile_data",
+    "text": "Contains user profile information including preferences and settings.",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": {
+        "minValue": null,
+        "maxValue": null,
+        "regex": null,
+        "allowCamera": true,
+        "allowGallery": true
+      },
+      "multiValueConstraints": {
+        "minValue": 1,
+        "maxValue": 5
+      },
+      "enumeratedValues": [
+        {
+          "id": "4e24305d-793f-462a-b53e-8f05a02521ae",
+          "text": "Choice 1",
+          "description": "First available option",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "453ccde5-c500-4404-b1f2-3b75a451d85b",
+          "text": "Choice 2",
+          "description": "Second available option",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": true,
+        "allowOther": true
+      },
+      "multivalued": true,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "292e12f0-a2d9-4268-af99-9eb8fd34e3e9",
+    "name": "pet",
+    "text": "List of your pets",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": {
+        "minValue": null,
+        "maxValue": null,
+        "regex": null,
+        "allowCamera": true,
+        "allowGallery": true
+      },
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": [
+        {
+          "id": "4be487f7-99de-4696-ae62-6bfd505ddd95",
+          "text": "Cat",
+          "description": "Cat",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "b0297383-8e2e-4c9e-aa0d-9b1c33e43e8a",
+          "text": "Dog",
+          "description": "Dog",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": true,
+        "allowOther": true
+      },
+      "multivalued": true,
+      "enumerated": true
+    }
+  }
+]

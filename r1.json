@@ -1,86 +1,88 @@
-{
-  "id": "124",
-  "name": "r1",
-  "condition": {
-    "filters": [
-      {
-        "filters": [
-          {
-            "criteria": {
-              "field": "age",
-              "operator": "GREATER_EQUAL",
-              "value": "18"
-            },
-            "type": "CRITERIA"
-          },
-          {
-            "criteria": {
-              "field": "age",
-              "operator": "LESS_EQUAL",
-              "value": "45"
-            },
-            "type": "CRITERIA"
-          },
-          {
-            "criteria": {
-              "field": "gender",
-              "operator": "EQUALS",
-              "value": "female"
-            },
-            "type": "CRITERIA"
-          }
-        ],
-        "type": "AND"
-      },
-      {
-        "filters": [
-          {
-            "criteria": {
-              "field": "country",
-              "operator": "EQUALS",
-              "value": "tr"
-            },
-            "type": "CRITERIA"
-          },
-          {
-            "criteria": {
-              "field": "country",
-              "operator": "EQUALS",
-              "value": "uk"
-            },
-            "type": "CRITERIA"
-          }
-        ],
-        "type": "OR"
-      },
-      {
-        "filters": [
-          {
-            "criteria": {
-              "field": "apps",
-              "operator": "CONTAINS",
-              "value": "twitter"
-            },
-            "type": "CRITERIA"
-          },
-          {
-            "filter": {
+[
+  {
+    "id": "124",
+    "name": "r1",
+    "condition": {
+      "filters": [
+        {
+          "filters": [
+            {
               "criteria": {
                 "field": "age",
-                "operator": "CONTAINS",
+                "operator": "GREATER_EQUAL",
+                "value": "18"
+              },
+              "type": "CRITERIA"
+            },
+            {
+              "criteria": {
+                "field": "age",
+                "operator": "LESS_EQUAL",
                 "value": "45"
               },
               "type": "CRITERIA"
             },
-            "type": "NOT"
-          }
-        ],
-        "type": "AND"
-      }
-    ],
-    "type": "AND"
-  },
-  "action": {
-    "id": "12412"
+            {
+              "criteria": {
+                "field": "gender",
+                "operator": "EQUALS",
+                "value": "female"
+              },
+              "type": "CRITERIA"
+            }
+          ],
+          "type": "AND"
+        },
+        {
+          "filters": [
+            {
+              "criteria": {
+                "field": "country",
+                "operator": "EQUALS",
+                "value": "tr"
+              },
+              "type": "CRITERIA"
+            },
+            {
+              "criteria": {
+                "field": "country",
+                "operator": "EQUALS",
+                "value": "uk"
+              },
+              "type": "CRITERIA"
+            }
+          ],
+          "type": "OR"
+        },
+        {
+          "filters": [
+            {
+              "criteria": {
+                "field": "apps",
+                "operator": "CONTAINS",
+                "value": "twitter"
+              },
+              "type": "CRITERIA"
+            },
+            {
+              "filter": {
+                "criteria": {
+                  "field": "age",
+                  "operator": "CONTAINS",
+                  "value": "45"
+                },
+                "type": "CRITERIA"
+              },
+              "type": "NOT"
+            }
+          ],
+          "type": "AND"
+        }
+      ],
+      "type": "AND"
+    },
+    "action": {
+      "id": "12412"
+    }
   }
-}
+]

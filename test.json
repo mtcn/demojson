@@ -1369,7 +1369,7 @@
     }
   },
   {
-    "id": "1a2b3c4d-5e6f-7g8h-9i10-11j12k13l14m",
+    "id": "e3b54810-70cc-4221-a69c-53d453a737ac",
     "name": "current_weather_condition",
     "text": "Current weather condition",
     "type": "INFERRED",
@@ -1382,25 +1382,25 @@
       },
       "enumeratedValues": [
         {
-          "id": "a1b2c3d4-e5f6-7g8h-9i10-11j12k13l14m",
+          "id": "bbb729e3-2dff-448f-a2d9-18bfeddf2dda",
           "text": "Clear",
           "description": "Clear weather",
           "imageUrl": "https://example.com/clear.jpg"
         },
         {
-          "id": "b2c3d4e5-f6g7-8h9i-10j11-12k13l14m15n",
+          "id": "378e1b9b-4c10-4826-bcc6-2de60da70a53",
           "text": "Rain",
           "description": "Rainy weather",
           "imageUrl": "https://example.com/rain.jpg"
         },
         {
-          "id": "c3d4e5f6-g7h8-9i10-11j12-13k14l15m16n",
+          "id": "b2d8f15f-42b2-41de-b557-dc35337c5b79",
           "text": "Snow",
           "description": "Snowy weather",
           "imageUrl": "https://example.com/snow.jpg"
         },
         {
-          "id": "d4e5f6g7-h8i9-10j11-12k13-14l15m16n17o",
+          "id": "f74e13aa-b7fc-40b5-ac4a-f538c5a57481",
           "text": "Cloudy",
           "description": "Cloudy weather",
           "imageUrl": "https://example.com/cloudy.jpg"

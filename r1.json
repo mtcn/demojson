@@ -190,7 +190,7 @@
         },
         {
           "criteria": {
-            "field": "bluetooth_devices.name",
+            "field": "bluetooth_devices",
             "operator": "CONTAINS",
             "value": "Apple tv"
           },

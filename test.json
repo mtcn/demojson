@@ -934,10 +934,8 @@
     "text": "Last boot time",
     "type": "NATIVE",
     "valueDef": {
-      "type": "STRING",
-      "constraints": {
-        "format": "date-time"
-      },
+      "type": "DATETIME",
+      "constraints": null,
       "multiValueConstraints": {
         "minValue": 0,
         "maxValue": 0

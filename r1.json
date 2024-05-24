@@ -289,7 +289,7 @@
           "criteria": {
             "field": "frequent_locations",
             "operator": "CONTAINS",
-            "value": "Coordinates"
+            "value": "41.010405,28.612342"
           },
           "type": "CRITERIA"
         },

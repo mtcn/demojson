@@ -324,7 +324,10 @@
       "type": "NUMBER",
       "constraints": {
         "minValue": 0,
-        "maxValue": 100
+        "maxValue": 100,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
       },
       "multiValueConstraints": {
         "minValue": 0,
@@ -464,7 +467,11 @@
     "valueDef": {
       "type": "NUMBER",
       "constraints": {
-        "minValue": 0
+        "minValue": 0,
+        "maxValue": 999999999,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
       },
       "multiValueConstraints": {
         "minValue": 0,
@@ -558,7 +565,11 @@
     "valueDef": {
       "type": "STRING",
       "constraints": {
-        "regex": "\\+?[1-9]\\d{1,14}"
+        "regex": "\\+?[1-9]\\d{1,14}",
+        "minValue": null,
+        "maxValue": null,
+        "allowCamera": false,
+        "allowGallery": false
       },
       "multiValueConstraints": {
         "minValue": 0,
@@ -812,7 +823,10 @@
       "type": "NUMBER",
       "constraints": {
         "minValue": 0,
-        "maxValue": 100
+        "maxValue": 100,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
       },
       "multiValueConstraints": {
         "minValue": 0,
@@ -838,7 +852,10 @@
       "type": "NUMBER",
       "constraints": {
         "minValue": 0,
-        "maxValue": 100
+        "maxValue": 100,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
       },
       "multiValueConstraints": {
         "minValue": 0,
@@ -863,7 +880,11 @@
     "valueDef": {
       "type": "NUMBER",
       "constraints": {
-        "minValue": 0
+        "minValue": 0,
+        "maxValue": 9999999,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
       },
       "multiValueConstraints": {
         "minValue": 0,
@@ -911,7 +932,11 @@
     "valueDef": {
       "type": "NUMBER",
       "constraints": {
-        "minValue": 0
+        "minValue": 0,
+        "maxValue": 9999999999,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
       },
       "multiValueConstraints": {
         "minValue": 0,
@@ -1109,7 +1134,10 @@
       "type": "NUMBER",
       "constraints": {
         "minValue": 0,
-        "maxValue": 100
+        "maxValue": 100,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
       },
       "multiValueConstraints": {
         "minValue": 0,

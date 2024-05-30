@@ -468,7 +468,7 @@
       "type": "NUMBER",
       "constraints": {
         "minValue": 0,
-        "maxValue": 999999999,
+        "maxValue": 99999,
         "regex": null,
         "allowCamera": false,
         "allowGallery": false
@@ -881,7 +881,7 @@
       "type": "NUMBER",
       "constraints": {
         "minValue": 0,
-        "maxValue": 9999999,
+        "maxValue": 9999,
         "regex": null,
         "allowCamera": false,
         "allowGallery": false
@@ -933,7 +933,7 @@
       "type": "NUMBER",
       "constraints": {
         "minValue": 0,
-        "maxValue": 9999999999,
+        "maxValue": 99999,
         "regex": null,
         "allowCamera": false,
         "allowGallery": false

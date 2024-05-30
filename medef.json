@@ -1,0 +1,1445 @@
+[
+  {
+    "id": "292e12f0-a2d9-4268-af99-9eb8fd34e3e9",
+    "name": "pet",
+    "text": "List of your pets",
+    "type": "QA_BASED",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": [
+        {
+          "id": "4be487f7-99de-4696-ae62-6bfd505ddd95",
+          "text": "Cat",
+          "description": "Cat",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "b0297383-8e2e-4c9e-aa0d-9b1c33e43e8a",
+          "text": "Dog",
+          "description": "Dog",
+          "imageUrl": "https://example.com/image2.jpg"
+        },
+        {
+          "id": "777d94f6-10a6-4b26-b6c1-42bba666c433",
+          "text": "Bird",
+          "description": "Bird",
+          "imageUrl": "https://example.com/image2.jpg"
+        },
+        {
+          "id": "da73e0c4-36f2-4e88-8afd-4693870c118c",
+          "text": "None",
+          "description": "None",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": true,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "f40c684b-8167-44e5-be99-f8e977671b02",
+    "name": "gender",
+    "text": "What's your gender?",
+    "type": "QA_BASED",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": [
+        {
+          "id": "57733863-c203-4e00-bc17-dc37eebf51f4",
+          "text": "Male",
+          "description": "Male",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "a0f52d1f-ed36-4a77-9191-15e1d76f014e",
+          "text": "Female",
+          "description": "Female",
+          "imageUrl": "https://example.com/image2.jpg"
+        },
+        {
+          "id": "3b7ad3cf-c74d-4cfd-afd5-e6d5a5121d05",
+          "text": "Other",
+          "description": "Other",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": true
+      },
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "5feefbf4-f8ff-4aa4-b275-0b1576dfd173",
+    "name": "device_os",
+    "text": "What's device OS?",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": [
+        {
+          "id": "5a25a7aa-d0e9-4ce4-8480-d83b307f4bc3",
+          "text": "Android",
+          "description": "Android",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "a0c212a6-62c9-4c60-87ac-fe85af4523db",
+          "text": "iOS",
+          "description": "iOS",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "206e3534-0cba-4258-8ec5-44dead973e6a",
+    "name": "country",
+    "text": "What's device country?",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": true,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "6a39a06b-fcba-4dd6-8e8b-0484e3bba1fc",
+    "name": "last_seen",
+    "text": "When you open the app last time?",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "DATETIME",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": true,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "60183c88-f39a-4b0f-857b-f10b3912f0dd",
+    "name": "paid_user",
+    "text": "Do you have a premium account?",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "BOOLEAN",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": true,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "eadde501-d53a-4d87-a6c4-2a182027a8c3",
+    "name": "average_step_count",
+    "text": "What's your daily average step count?",
+    "type": "INFERRED",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": true,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "954150de-cabe-4812-a55a-bb59aff3eb85",
+    "name": "last_tweets",
+    "text": "What's last 30 tweets?",
+    "type": "INFERRED",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": true,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "ea109d84-2ea2-4af0-b140-3f7a06891ddf",
+    "name": "good_mood_level",
+    "text": "What's the level of good mood according to Spotify playlists?",
+    "type": "INFERRED",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": {
+        "minValue": 0,
+        "maxValue": 100,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
+      },
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": true,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "b3cb93ef-ecc1-4fa1-aef2-2fd93c59d8f1",
+    "name": "downloaded_apps",
+    "text": "List of your applications",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": true,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "00161bcd-9fd8-4bac-acee-d84b72530bf0",
+    "name": "your_car_photo",
+    "text": "Photo of your car?",
+    "type": "QA_BASED",
+    "valueDef": {
+      "type": "IMAGE",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": true,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "cdd8b9d4-7e4f-41f5-95da-1fa63c06c28f",
+    "name": "battery_level",
+    "text": "What's the current battery level?",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": {
+        "minValue": 0,
+        "maxValue": 100,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
+      },
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "c7e2b8a7-05b4-4639-9673-4f1d54e3aada",
+    "name": "screen_time",
+    "text": "What's your daily screen time?",
+    "type": "INFERRED",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 1440
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "d3f77b7e-3d8b-4a4f-a9f5-e4457f9a2b7b",
+    "name": "location",
+    "text": "Current location",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "e11c8eaf-391e-4eb5-baf2-6f4c708f5c52",
+    "name": "wifi_ssid",
+    "text": "Current Wi-Fi SSID",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "e6cba2ad-14d8-4b44-8334-3bb13d5fa1d2",
+    "name": "bluetooth_devices",
+    "text": "List of connected Bluetooth devices",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": true,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "efa63b7f-1e54-4207-8e2b-e1a6c10f8f78",
+    "name": "app_usage_stats",
+    "text": "App usage statistics",
+    "type": "INFERRED",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "f76d5e5e-c485-4545-8898-7525f4de6e2f",
+    "name": "storage_capacity",
+    "text": "Total storage capacity of the device",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": {
+        "minValue": 0,
+        "maxValue": 99999,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
+      },
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "faa0f82b-6e7f-490f-9371-9c33d0e6c9f4",
+    "name": "device_model",
+    "text": "Device model",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "03d52978-75e3-43a7-b8a1-c09b15ab9b13",
+    "name": "timezone",
+    "text": "Current timezone",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "04d8a324-2d63-4b8f-9888-3d5d1b8b1a7f",
+    "name": "contact_list",
+    "text": "List of contacts",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": true,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "062da03c-3479-499a-9c42-74b6e2677b9e",
+    "name": "phone_number",
+    "text": "Phone number",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": {
+        "regex": "\\+?[1-9]\\d{1,14}",
+        "minValue": null,
+        "maxValue": null,
+        "allowCamera": false,
+        "allowGallery": false
+      },
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "08cf3ef1-bc34-49a3-81c7-13d467fbe95f",
+    "name": "calendar_events",
+    "text": "Calendar events",
+    "type": "INFERRED",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": true,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "0b8a3b1f-4f8e-41c6-8e74-0a4e6c2c59e9",
+    "name": "favorite_music_genre",
+    "text": "Favorite music genre",
+    "type": "QA_BASED",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": [
+        {
+          "id": "a6a8b24e-8c7a-4f88-a47d-f192e87b229c",
+          "text": "Rock",
+          "description": "Rock",
+          "imageUrl": "https://example.com/rock.jpg"
+        },
+        {
+          "id": "b6a8b24e-8c7a-4f88-a47d-f192e87b229d",
+          "text": "Pop",
+          "description": "Pop",
+          "imageUrl": "https://example.com/pop.jpg"
+        },
+        {
+          "id": "c6a8b24e-8c7a-4f88-a47d-f192e87b229e",
+          "text": "Jazz",
+          "description": "Jazz",
+          "imageUrl": "https://example.com/jazz.jpg"
+        },
+        {
+          "id": "d6a8b24e-8c7a-4f88-a47d-f192e87b229f",
+          "text": "Classical",
+          "description": "Classical",
+          "imageUrl": "https://example.com/classical.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": true
+      },
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "0d66f8b3-3c24-4aaf-b5d5-bb5c4b86d826",
+    "name": "frequent_locations",
+    "text": "Frequently visited locations",
+    "type": "INFERRED",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": true,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "0fa4cf5a-08e5-4314-8b3e-76f1738d3346",
+    "name": "recent_photos",
+    "text": "Recent photos",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "IMAGE",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": true,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "11b4741c-4c61-4c98-9d6a-858f8b32c10a",
+    "name": "workout_routine",
+    "text": "Workout routine",
+    "type": "QA_BASED",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": [
+        {
+          "id": "aa8c114a-7d78-4a64-b9f5-7f5d7d621c56",
+          "text": "Cardio",
+          "description": "Cardio exercises",
+          "imageUrl": "https://example.com/cardio.jpg"
+        },
+        {
+          "id": "ba8c114a-7d78-4a64-b9f5-7f5d7d621c57",
+          "text": "Strength Training",
+          "description": "Strength training exercises",
+          "imageUrl": "https://example.com/strength.jpg"
+        },
+        {
+          "id": "ca8c114a-7d78-4a64-b9f5-7f5d7d621c58",
+          "text": "Yoga",
+          "description": "Yoga exercises",
+          "imageUrl": "https://example.com/yoga.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": true
+      },
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "13b84b2e-8396-4ef6-8fa8-2dc4d7d0d795",
+    "name": "browser_history",
+    "text": "Browser history",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": true,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "1738d7b9-8b73-4298-a748-58cb6bfb1c32",
+    "name": "device_name",
+    "text": "Device name",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "185c739b-4a22-4e8c-8d0a-4c5c98c8f3c1",
+    "name": "os_version",
+    "text": "Operating system version",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "1a0d78a1-3c83-442f-83b5-d5f2b6e476e3",
+    "name": "cpu_usage",
+    "text": "Current CPU usage",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": {
+        "minValue": 0,
+        "maxValue": 100,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
+      },
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "1c5d9a79-1d6c-4934-89ab-5610a5ef8c92",
+    "name": "memory_usage",
+    "text": "Current memory usage",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": {
+        "minValue": 0,
+        "maxValue": 100,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
+      },
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "1d98f3a8-b3a2-411d-84b3-5718d7c5e3e4",
+    "name": "available_storage",
+    "text": "Available storage space",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": {
+        "minValue": 0,
+        "maxValue": 9999,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
+      },
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "2b3df5e5-5a2e-4a8c-8995-7525d3e2a5a6",
+    "name": "screen_resolution",
+    "text": "Screen resolution",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "2c2a45e3-64a8-4b34-8a83-675d4f2e5b8d",
+    "name": "device_uptime",
+    "text": "Device uptime",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": {
+        "minValue": 0,
+        "maxValue": 99999,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
+      },
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "2d8f46f6-ae5a-4b5e-8b2c-2b4b5a7d6f3c",
+    "name": "last_boot_time",
+    "text": "Last boot time",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "DATETIME",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "2e9c78a4-8c3f-4c7b-a5b5-d3c7a3a4e8e3",
+    "name": "carrier_name",
+    "text": "Carrier name",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "3f4c79e2-a92f-4d3d-8b3b-4b3b5a4d3a4e",
+    "name": "network_type",
+    "text": "Network type (e.g., Wi-Fi, LTE)",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": [
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c56",
+          "text": "Wi-Fi",
+          "description": "Wi-Fi connection",
+          "imageUrl": "https://example.com/wifi.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c57",
+          "text": "LTE",
+          "description": "LTE connection",
+          "imageUrl": "https://example.com/lte.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c58",
+          "text": "3G",
+          "description": "3G connection",
+          "imageUrl": "https://example.com/3g.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c59",
+          "text": "4G",
+          "description": "4G connection",
+          "imageUrl": "https://example.com/4g.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": true
+      },
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "4b8f67b3-8b73-4898-a3d2-1d4a5a7c8f3d",
+    "name": "battery_health",
+    "text": "Battery health",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": [
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c60",
+          "text": "Good",
+          "description": "Battery is in good health",
+          "imageUrl": "https://example.com/good.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c61",
+          "text": "Overheat",
+          "description": "Battery is overheating",
+          "imageUrl": "https://example.com/overheat.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c62",
+          "text": "Dead",
+          "description": "Battery is dead",
+          "imageUrl": "https://example.com/dead.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": true
+      },
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "5a4b67c8-8b7c-4d3b-a2d2-3b4a6c8f5e3d",
+    "name": "bluetooth_status",
+    "text": "Bluetooth status",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": [
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c63",
+          "text": "On",
+          "description": "Bluetooth is on",
+          "imageUrl": "https://example.com/on.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c64",
+          "text": "Off",
+          "description": "Bluetooth is off",
+          "imageUrl": "https://example.com/off.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": true
+      },
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "6a8f79d4-9b8c-4d4e-a4d5-4a7d8e5e3b3a",
+    "name": "wifi_signal_strength",
+    "text": "Wi-Fi signal strength",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": {
+        "minValue": 0,
+        "maxValue": 100,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
+      },
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "9c7b5a4e-3b8f-4a5c-9d7e-1a4b3e8d6c5b",
+    "name": "favorite_movie_genre",
+    "text": "Favorite movie genre",
+    "type": "QA_BASED",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": [
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c69",
+          "text": "Action",
+          "description": "Action movies",
+          "imageUrl": "https://example.com/action.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c70",
+          "text": "Comedy",
+          "description": "Comedy movies",
+          "imageUrl": "https://example.com/comedy.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c71",
+          "text": "Drama",
+          "description": "Drama movies",
+          "imageUrl": "https://example.com/drama.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c72",
+          "text": "Sci-Fi",
+          "description": "Science fiction movies",
+          "imageUrl": "https://example.com/scifi.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": true
+      },
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "1d8f9c5a-7a8e-4a4d-9b7c-2a4b3c8e5b7d",
+    "name": "preferred_travel_mode",
+    "text": "Preferred mode of travel",
+    "type": "QA_BASED",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": [
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c73",
+          "text": "Car",
+          "description": "Traveling by car",
+          "imageUrl": "https://example.com/car.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c74",
+          "text": "Bike",
+          "description": "Traveling by bike",
+          "imageUrl": "https://example.com/bike.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c75",
+          "text": "Public transport",
+          "description": "Traveling by public transport",
+          "imageUrl": "https://example.com/public_transport.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c76",
+          "text": "Walking",
+          "description": "Traveling by walking",
+          "imageUrl": "https://example.com/walking.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": true
+      },
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "2a8d7c5b-8e9f-4b4a-9c7d-1a4d3c8b5e6f",
+    "name": "favorite_sport",
+    "text": "Favorite sport",
+    "type": "QA_BASED",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": [
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c77",
+          "text": "Soccer",
+          "description": "Soccer sport",
+          "imageUrl": "https://example.com/soccer.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c78",
+          "text": "Basketball",
+          "description": "Basketball sport",
+          "imageUrl": "https://example.com/basketball.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c79",
+          "text": "Tennis",
+          "description": "Tennis sport",
+          "imageUrl": "https://example.com/tennis.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c80",
+          "text": "Swimming",
+          "description": "Swimming sport",
+          "imageUrl": "https://example.com/swimming.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": true
+      },
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "3e9f7b5a-8a4d-4a8b-9d7e-2c4d3b8a6e7f",
+    "name": "preferred_cuisine",
+    "text": "Preferred cuisine",
+    "type": "QA_BASED",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": [
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c81",
+          "text": "Italian",
+          "description": "Italian cuisine",
+          "imageUrl": "https://example.com/italian.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c82",
+          "text": "Chinese",
+          "description": "Chinese cuisine",
+          "imageUrl": "https://example.com/chinese.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c83",
+          "text": "Mexican",
+          "description": "Mexican cuisine",
+          "imageUrl": "https://example.com/mexican.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c84",
+          "text": "Indian",
+          "description": "Indian cuisine",
+          "imageUrl": "https://example.com/indian.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": true
+      },
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "4b8d5a7c-8f9e-4b5a-9c7e-3d4a3e8c6b8d",
+    "name": "preferred_exercise_type",
+    "text": "Preferred type of exercise",
+    "type": "QA_BASED",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": [
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c85",
+          "text": "Running",
+          "description": "Running exercise",
+          "imageUrl": "https://example.com/running.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c86",
+          "text": "Yoga",
+          "description": "Yoga exercise",
+          "imageUrl": "https://example.com/yoga.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c87",
+          "text": "Weightlifting",
+          "description": "Weightlifting exercise",
+          "imageUrl": "https://example.com/weightlifting.jpg"
+        },
+        {
+          "id": "fa8c114a-7d78-4a64-b9f5-7f5d7d621c88",
+          "text": "Cycling",
+          "description": "Cycling exercise",
+          "imageUrl": "https://example.com/cycling.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": true,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": true
+      },
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "e3b54810-70cc-4221-a69c-53d453a737ac",
+    "name": "current_weather_condition",
+    "text": "Current weather condition",
+    "type": "INFERRED",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": {
+        "minValue": 0,
+        "maxValue": 0
+      },
+      "enumeratedValues": [
+        {
+          "id": "bbb729e3-2dff-448f-a2d9-18bfeddf2dda",
+          "text": "Clear",
+          "description": "Clear weather",
+          "imageUrl": "https://example.com/clear.jpg"
+        },
+        {
+          "id": "378e1b9b-4c10-4826-bcc6-2de60da70a53",
+          "text": "Rain",
+          "description": "Rainy weather",
+          "imageUrl": "https://example.com/rain.jpg"
+        },
+        {
+          "id": "b2d8f15f-42b2-41de-b557-dc35337c5b79",
+          "text": "Snow",
+          "description": "Snowy weather",
+          "imageUrl": "https://example.com/snow.jpg"
+        },
+        {
+          "id": "f74e13aa-b7fc-40b5-ac4a-f538c5a57481",
+          "text": "Cloudy",
+          "description": "Cloudy weather",
+          "imageUrl": "https://example.com/cloudy.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": {
+        "allowNone": false,
+        "allowIdk": false,
+        "allowNa": false,
+        "allowOther": false
+      },
+      "multivalued": false,
+      "enumerated": true
+    }
+  }
+]

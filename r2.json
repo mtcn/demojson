@@ -1,0 +1,422 @@
+[
+  {
+    "id": "6e2ff5a7-8d29-4b40-ba64-98ab4830db4e",
+    "name": "Rule 1: If the average step count is greater than 1000, the good mood level is above 70, and the preferred exercise type includes \"Weightlifting\", then take action.",
+    "condition": {
+      "type": "AND",
+      "filters": [
+        {
+          "type": "AND",
+          "filters": [
+            {
+              "criteria": {
+                "field": "average_step_count",
+                "operator": "GREATER_THAN",
+                "value": "1000"
+              },
+              "type": "CRITERIA"
+            },
+            {
+              "criteria": {
+                "field": "good_mood_level",
+                "operator": "GREATER_THAN",
+                "value": "70"
+              },
+              "type": "CRITERIA"
+            }
+          ]
+        },
+        {
+          "criteria": {
+            "field": "preferred_exercise_type",
+            "operator": "CONTAINS",
+            "value": "Weightlifting"
+          },
+          "type": "CRITERIA"
+        }
+      ]
+    },
+    "action": {
+      "id": "1"
+    }
+  },
+  {
+    "id": "f71c452d-98e4-4d2c-8778-bc74c759f6e1",
+    "name": "Rule 2: If the battery level is below 20%, the screen time is greater than 240 minutes, and the network type is Wi-Fi, then take action.",
+    "condition": {
+      "type": "AND",
+      "filters": [
+        {
+          "criteria": {
+            "field": "battery_level",
+            "operator": "LESS_THAN",
+            "value": "20"
+          },
+          "type": "CRITERIA"
+        },
+        {
+          "criteria": {
+            "field": "screen_time",
+            "operator": "GREATER_THAN",
+            "value": "240"
+          },
+          "type": "CRITERIA"
+        },
+        {
+          "criteria": {
+            "field": "network_type",
+            "operator": "EQUALS",
+            "value": "Wi-Fi"
+          },
+          "type": "CRITERIA"
+        }
+      ]
+    },
+    "action": {
+      "id": "1"
+    }
+  },
+  {
+    "id": "fae69b1d-8e5c-4c9e-9448-0f062eab5fd3",
+    "name": "Rule 3: If the device model is Samsung, the device OS is Android, and the browser history includes visits to both \"www.google.com\" and \"www.facebook.com\", then take action.",
+    "condition": {
+      "type": "AND",
+      "filters": [
+        {
+          "criteria": {
+            "field": "device_model",
+            "operator": "EQUALS",
+            "value": "Samsung"
+          },
+          "type": "CRITERIA"
+        },
+        {
+          "criteria": {
+            "field": "device_os",
+            "operator": "EQUALS",
+            "value": "Android"
+          },
+          "type": "CRITERIA"
+        },
+        {
+          "filters": [
+            {
+              "criteria": {
+                "field": "browser_history",
+                "operator": "MEMBER",
+                "value": "www.google.com"
+              },
+              "type": "CRITERIA"
+            },
+            {
+              "criteria": {
+                "field": "browser_history",
+                "operator": "MEMBER",
+                "value": "www.facebook.com"
+              },
+              "type": "CRITERIA"
+            }
+          ],
+          "type": "AND"
+        }
+      ]
+    },
+    "action": {
+      "id": "1"
+    }
+  },
+  {
+    "id": "f803a946-9a47-4b7d-9b9b-195ff923d7ec",
+    "name": "Rule 4: If the weather condition is \"Clear\", the screen resolution is 1024x1024, and the pet includes both \"cat\" and \"bird\", then take action.",
+    "condition": {
+      "type": "AND",
+      "filters": [
+        {
+          "criteria": {
+            "field": "current_weather_condition",
+            "operator": "EQUALS",
+            "value": "Clear"
+          },
+          "type": "CRITERIA"
+        },
+        {
+          "criteria": {
+            "field": "screen_resolution",
+            "operator": "EQUALS",
+            "value": "1024x1024"
+          },
+          "type": "CRITERIA"
+        },
+        {
+          "filters": [
+            {
+              "criteria": {
+                "field": "pet",
+                "operator": "MEMBER",
+                "value": "cat"
+              },
+              "type": "CRITERIA"
+            },
+            {
+              "criteria": {
+                "field": "pet",
+                "operator": "MEMBER",
+                "value": "bird"
+              },
+              "type": "CRITERIA"
+            }
+          ],
+          "type": "AND"
+        }
+      ]
+    },
+    "action": {
+      "id": "1"
+    }
+  },
+  {
+    "id": "dc7e0d8a-82eb-4f18-bc33-42d8db2adff3",
+    "name": "Rule 5: If the Bluetooth status is \"On\" and there is at least one Bluetooth device named \"Apple tv\", then take action.",
+    "condition": {
+      "type": "AND",
+      "filters": [
+        {
+          "criteria": {
+            "field": "bluetooth_status",
+            "operator": "EQUALS",
+            "value": "On"
+          },
+          "type": "CRITERIA"
+        },
+        {
+          "criteria": {
+            "field": "bluetooth_devices",
+            "operator": "Member",
+            "value": "Apple tv"
+          },
+          "type": "CRITERIA"
+        }
+      ]
+    },
+    "action": {
+      "id": "1"
+    }
+  },
+  {
+    "id": "b3b61cd7-9a26-4a28-ba1f-d2c9620d26b9",
+    "name": "Rule 6: If the favorite movie genre includes \"Action\" or \"Comedy\" and the preferred cuisine is \"Italian\", then take action.",
+    "condition": {
+      "type": "AND",
+      "filters": [
+        {
+          "type": "OR",
+          "filters": [
+            {
+              "criteria": {
+                "field": "favorite_movie_genre",
+                "operator": "CONTAINS",
+                "value": "Action"
+              },
+              "type": "CRITERIA"
+            },
+            {
+              "criteria": {
+                "field": "favorite_movie_genre",
+                "operator": "CONTAINS",
+                "value": "Comedy"
+              },
+              "type": "CRITERIA"
+            }
+          ]
+        },
+        {
+          "criteria": {
+            "field": "preferred_cuisine",
+            "operator": "EQUALS",
+            "value": "Italian"
+          },
+          "type": "CRITERIA"
+        }
+      ]
+    },
+    "action": {
+      "id": "1"
+    }
+  },
+  {
+    "id": "b24f8d8e-4908-45e7-9ba5-64976fb9bb64",
+    "name": "Rule 7: If the last boot time is within the last 24 hours and the device name contains \"Samsung\", then take action.",
+    "condition": {
+      "type": "AND",
+      "filters": [
+        {
+          "criteria": {
+            "field": "last_boot_time",
+            "operator": "GREATER_THAN",
+            "value": "1716551011"
+          },
+          "type": "CRITERIA"
+        },
+        {
+          "criteria": {
+            "field": "device_name",
+            "operator": "CONTAINS",
+            "value": "Samsung"
+          },
+          "type": "CRITERIA"
+        }
+      ]
+    },
+    "action": {
+      "id": "1"
+    }
+  },
+  {
+    "id": "b4e7f2a5-97e5-41f7-b111-1f8796bf8210",
+    "name": "Rule 8: If the preferred travel mode is \"Car\", the frequent locations include coordinates, and the battery health is \"Good\", then take action.",
+    "condition": {
+      "type": "AND",
+      "filters": [
+        {
+          "criteria": {
+            "field": "preferred_travel_mode",
+            "operator": "EQUALS",
+            "value": "Car"
+          },
+          "type": "CRITERIA"
+        },
+        {
+          "criteria": {
+            "field": "frequent_locations",
+            "operator": "MEMBER",
+            "value": "41.010405,28.612342"
+          },
+          "type": "CRITERIA"
+        },
+        {
+          "criteria": {
+            "field": "battery_health",
+            "operator": "EQUALS",
+            "value": "Good"
+          },
+          "type": "CRITERIA"
+        }
+      ]
+    },
+    "action": {
+      "id": "1"
+    }
+  },
+  {
+    "id": "ea5a5b12-ec36-4f44-82d1-4607c4a23651",
+    "name": "Rule 9: If the current weather condition is \"Rainy\" and the battery level is below 30%, then take action.",
+    "condition": {
+      "type": "AND",
+      "filters": [
+        {
+          "criteria": {
+            "field": "current_weather_condition",
+            "operator": "EQUALS",
+            "value": "Rainy"
+          },
+          "type": "CRITERIA"
+        },
+        {
+          "criteria": {
+            "field": "battery_level",
+            "operator": "LESS_THAN",
+            "value": "30"
+          },
+          "type": "CRITERIA"
+        }
+      ]
+    },
+    "action": {
+      "id": "1"
+    }
+  },
+  {
+    "id": "f1b4e434-7a95-4c5e-9e01-184560ae7f3a",
+    "name": "Rule 10: If the last seen timestamp is within the last 6 hours and the device OS is iOS, then take action.",
+    "condition": {
+      "type": "AND",
+      "filters": [
+        {
+          "criteria": {
+            "field": "last_seen",
+            "operator": "GREATER_THAN",
+            "value": "1716551011"
+          },
+          "type": "CRITERIA"
+        },
+        {
+          "criteria": {
+            "field": "device_os",
+            "operator": "EQUALS",
+            "value": "iOS"
+          },
+          "type": "CRITERIA"
+        }
+      ]
+    },
+    "action": {
+      "id": "1"
+    }
+  },
+  {
+    "id": "5fe8a4b9-6704-421d-af39-87ec7a996f2d",
+    "name": "Rule 11: If the screen resolution is 1920x1080 and the screen time is greater than 360 minutes, then take action.",
+    "condition": {
+      "type": "AND",
+      "filters": [
+        {
+          "criteria": {
+            "field": "screen_resolution",
+            "operator": "EQUALS",
+            "value": "1920x1080"
+          },
+          "type": "CRITERIA"
+        },
+        {
+          "criteria": {
+            "field": "screen_time",
+            "operator": "GREATER_THAN",
+            "value": "360"
+          },
+          "type": "CRITERIA"
+        }
+      ]
+    },
+    "action": {
+      "id": "1"
+    }
+  },
+  {
+    "id": "c44791ff-52d2-41b6-b334-b20a62b64a1b",
+    "name": "Rule 12: If the network type is \"Cellular\" and the browser history contains visits to \"www.linkedin.com\", then take action.",
+    "condition": {
+      "type": "AND",
+      "filters": [
+        {
+          "criteria": {
+            "field": "network_type",
+            "operator": "EQUALS",
+            "value": "Cellular"
+          },
+          "type": "CRITERIA"
+        },
+        {
+          "criteria": {
+            "field": "browser_history",
+            "operator": "MEMBER",
+            "value": "www.linkedin.com"
+          },
+          "type": "CRITERIA"
+        }
+      ]
+    },
+    "action": {
+      "id": "1"
+    }
+  }
+]

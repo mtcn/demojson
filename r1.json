@@ -103,7 +103,7 @@
             {
               "criteria": {
                 "field": "browser_history",
-                "operator": "CONTAINS",
+                "operator": "MEMBER",
                 "value": "www.google.com"
               },
               "type": "CRITERIA"
@@ -111,7 +111,7 @@
             {
               "criteria": {
                 "field": "browser_history",
-                "operator": "CONTAINS",
+                "operator": "MEMBER",
                 "value": "www.facebook.com"
               },
               "type": "CRITERIA"
@@ -152,7 +152,7 @@
             {
               "criteria": {
                 "field": "pet",
-                "operator": "CONTAINS",
+                "operator": "MEMBER",
                 "value": "cat"
               },
               "type": "CRITERIA"
@@ -160,7 +160,7 @@
             {
               "criteria": {
                 "field": "pet",
-                "operator": "CONTAINS",
+                "operator": "MEMBER",
                 "value": "bird"
               },
               "type": "CRITERIA"
@@ -191,7 +191,7 @@
         {
           "criteria": {
             "field": "bluetooth_devices",
-            "operator": "CONTAINS",
+            "operator": "Member",
             "value": "Apple tv"
           },
           "type": "CRITERIA"
@@ -288,7 +288,7 @@
         {
           "criteria": {
             "field": "frequent_locations",
-            "operator": "CONTAINS",
+            "operator": "MEMBER",
             "value": "41.010405,28.612342"
           },
           "type": "CRITERIA"
@@ -408,7 +408,7 @@
         {
           "criteria": {
             "field": "browser_history",
-            "operator": "CONTAINS",
+            "operator": "MEMBER",
             "value": "www.linkedin.com"
           },
           "type": "CRITERIA"

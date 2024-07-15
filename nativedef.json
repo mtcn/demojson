@@ -720,7 +720,22 @@
     "text": "Call logs",
     "type": "NATIVE",
     "valueDef": {
-      "type": "STRING",
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "898b0d61-10b1-49d3-8831-272f5d950fcc",
+    "name": "reminder_data",
+    "text": "Reminder Data",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
       "constraints": null,
       "multiValueConstraints": null,
       "enumeratedValues": null,

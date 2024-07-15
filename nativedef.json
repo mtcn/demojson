@@ -1,0 +1,732 @@
+[
+  {
+    "id": "292e12f0-a2d9-4268-af99-9eb8fd34e3e9",
+    "name": "device_brand",
+    "text": "Device Brand",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "9c90f24d-d32f-4a17-9d21-88b963df6939",
+    "name": "device_language",
+    "text": "Device Language",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "11824d0b-384d-4db8-9c2c-05e5b68ef8af",
+    "name": "device_country",
+    "text": "Device Country",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "54978243-182a-4893-bc34-e4ed52c179ed",
+    "name": "device_sdk_version",
+    "text": "Device SDK Version",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "5feefbf4-f8ff-4aa4-b275-0b1576dfd173",
+    "name": "device_ab_test_group",
+    "text": "Device A/B Test Group",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": [
+        {
+          "id": "5a25a7aa-d0e9-4ce4-8480-d83b307f4bc3",
+          "text": "A",
+          "description": "A",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "a0c212a6-62c9-4c60-87ac-fe85af4523db",
+          "text": "B",
+          "description": "B",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "087367c5-1450-473f-96b1-32c14f45e8f0",
+    "name": "device_push_notification_status",
+    "text": "Device Push Notification Status",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "BOOLEAN",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": [
+        {
+          "id": "86e9993a-6a3e-4b1f-8530-2342c8e53f76",
+          "text": "true",
+          "description": "true",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "dac1f963-5ad1-4ad7-a71b-b87eee2a1ca3",
+          "text": "false",
+          "description": "false",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "e9f5e1bb-b7c8-474d-a1b6-2d5fb66987ae",
+    "name": "device_mobile_carrier",
+    "text": "Device Mobile Carrier",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "bfe5847c-b08a-4bfe-83b6-41ed5c7641d3",
+    "name": "device_os",
+    "text": "Device Operating System",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": [
+        {
+          "id": "1ace173b-5b85-4636-84ed-ee16dfc93e1a",
+          "text": "Android",
+          "description": "Android",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "c53d8246-f11c-4a5a-91cd-e2d9592d715f",
+          "text": "iOS",
+          "description": "iOS",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "d5699e1f-d3c2-4532-a051-9b95384c06cf",
+    "name": "device_model",
+    "text": "Device Model",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "737ecb2e-3e32-4af2-b978-fb3c3d456da8",
+    "name": "device_last_app_open_date",
+    "text": "Device Last App Open Date",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "DATETIME",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "e81c9bcb-3b19-472a-abd2-cc752d36ec0c",
+    "name": "device_screen_resolution",
+    "text": "Device Screen Resolution",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "191e7a53-dfdb-49aa-8e91-e0bdd03a2a92",
+    "name": "device_timezone",
+    "text": "Device Timezone",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "a5fc23eb-2337-4b8c-aecf-a37e638e61ff",
+    "name": "device_gmt_offset",
+    "text": "Device GMT Offset",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "df1a0c34-f8dc-41f7-82c5-d481a73c075e",
+    "name": "device_battery_level",
+    "text": "Device Battery Level",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": {
+        "minValue": 0,
+        "maxValue": 100,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
+      },
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "5519daf3-5823-42af-b586-f4a2f6338340",
+    "name": "device_battery_state",
+    "text": "Device Battery State",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": [
+        {
+          "id": "da547ba8-f395-44f2-87cd-5969c28b6c37",
+          "text": "Charging",
+          "description": "Charging",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "932d8886-3829-4f72-b3e6-33fba02507ac",
+          "text": "Discharging",
+          "description": "Discharging",
+          "imageUrl": "https://example.com/image2.jpg"
+        },
+        {
+          "id": "876fae6c-8e0b-4cdf-ae25-4ac5103b25cd",
+          "text": "Full",
+          "description": "Full",
+          "imageUrl": "https://example.com/image2.jpg"
+        },
+        {
+          "id": "05e42f56-3497-4867-8ab7-f91ce14d0be8",
+          "text": "Not Charging",
+          "description": "Not Charging",
+          "imageUrl": "https://example.com/image2.jpg"
+        },
+        {
+          "id": "0cf0772d-fa13-4cc7-b1e1-c3cd1bbf24d7",
+          "text": "Unknown",
+          "description": "Unknown",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "3f29d957-0dce-4a14-88d6-10a4e3c5c5c6",
+    "name": "device_orientation",
+    "text": "Device Orientation",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": [
+        {
+          "id": "03272398-b8af-4fd8-bc2f-c48a2623aabc",
+          "text": "Portrait",
+          "description": "Portrait",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "47b0ba1f-0a61-4385-b344-0c1e9d32ccc6",
+          "text": "Landscape",
+          "description": "Landscape",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "4d7c0e78-3ad2-4592-85b9-faf2216a7436",
+    "name": "device_rooted",
+    "text": "Is Device Rooted?",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "BOOLEAN",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "fd238967-8e95-4f25-b7b5-7ec2874a6831",
+    "name": "device_session_duration",
+    "text": "Device Session Duration",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "d7719dc4-18ed-4556-881b-f1383c586665",
+    "name": "device_available_storage",
+    "text": "Device Available Storage",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "3e01c7c3-4a11-4e00-a6ae-dcad43c3b53f",
+    "name": "device_network_type",
+    "text": "Device Network Type",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": [
+        {
+          "id": "bbec1742-1c81-4587-a225-308522629d21",
+          "text": "WiFi",
+          "description": "WiFi",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "207b0f4f-703e-4209-8872-80b460e9a971",
+          "text": "Mobile",
+          "description": "Mobile",
+          "imageUrl": "https://example.com/image2.jpg"
+        },
+        {
+          "id": "43968a2c-aaf6-4065-ad5b-35003931aa33",
+          "text": "No Network",
+          "description": "No Network",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "e841546f-31cf-4260-8f5a-4dab390363d6",
+          "text": "Unknown",
+          "description": "Unknown",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "33b32c20-74d1-4bdd-a72b-59ab8fe72f96",
+    "name": "device_uptime",
+    "text": "Device Uptime",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "c5507b5f-75f7-4af7-870f-3a06b7241926",
+    "name": "device_muted",
+    "text": "Is Device Muted",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": [
+        {
+          "id": "2878e07f-f455-4022-a9cf-87437cfb2fc6",
+          "text": "Muted",
+          "description": "Muted",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "e5fff808-9789-4f0f-9f0b-280db325591a",
+          "text": "Un muted",
+          "description": "Un muted",
+          "imageUrl": "https://example.com/image2.jpg"
+        },
+        {
+          "id": "6a1971eb-c19f-43ad-a069-d2e83101f7dd",
+          "text": "Unknown",
+          "description": "Unknown",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "0027cdce-248d-4714-b256-698aa767e169",
+    "name": "device_ram_usage_percentage",
+    "text": "Device Ram Usage Percentage",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": {
+        "minValue": 0,
+        "maxValue": 100,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
+      },
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "44eb80b2-6373-455b-bcce-2ab9e45ac0dc",
+    "name": "device_ui_mode",
+    "text": "Device UI Mode",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": [
+        {
+          "id": "e11df402-d2de-48c3-99d6-9f6da8ccd1cf",
+          "text": "Dark",
+          "description": "Dark",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "f041f552-b7dc-403d-a501-4486de9c4605",
+          "text": "Light",
+          "description": "Light",
+          "imageUrl": "https://example.com/image2.jpg"
+        },
+        {
+          "id": "c3b6523b-2d45-4b3d-a45d-e7f7569398e9",
+          "text": "Unknown",
+          "description": "Unknown",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "766e7220-1df6-4ab4-af0e-06f67599334b",
+    "name": "device_vpn_active",
+    "text": "Device VPN Active",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "BOOLEAN",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": [
+        {
+          "id": "2a4512b1-3c1b-439b-9651-352666f1d75f",
+          "text": "true",
+          "description": "true",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "6342df52-3b33-4ed8-8366-769184628c7c",
+          "text": "false",
+          "description": "false",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "0a37b4f9-0482-4e6c-8d54-26d6317fe8e5",
+    "name": "device_headphone_connected",
+    "text": "Device Headphone Connected",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "BOOLEAN",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": [
+        {
+          "id": "ffd44f39-d7d7-4317-b73d-fcb686279853",
+          "text": "true",
+          "description": "true",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "b15d1334-7a2a-4762-b1e0-1a2efa1eba99",
+          "text": "false",
+          "description": "false",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": true
+    }
+  },
+  {
+    "id": "ef86a979-2332-4d69-84ad-00605ec5766d",
+    "name": "device_screen_brightness_level",
+    "text": "Device Screen Brightness Level",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "NUMBER",
+      "constraints": {
+        "minValue": 0,
+        "maxValue": 100,
+        "regex": null,
+        "allowCamera": false,
+        "allowGallery": false
+      },
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "6f78b65c-7157-4d94-b7af-f49955b287e8",
+    "name": "last_location",
+    "text": "Last known location",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "7be32f76-252d-4d93-a767-43da6040a3f5",
+    "name": "contact_list",
+    "text": "Contact list",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "dc0ae8b8-71d9-466e-83a8-93e527f7d325",
+    "name": "app_usage",
+    "text": "App usage",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "18567dcb-2111-4298-852f-a39b1a6f9606",
+    "name": "bluetooth_devices",
+    "text": "Bluetooth Devices",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "8219c75a-afa7-4487-8e96-259b5afeee97",
+    "name": "calendar_events",
+    "text": "Native calendar events",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "2ad45182-146d-4e15-8665-c1508c0afe56",
+    "name": "photo_exif",
+    "text": "Photos EXIF data",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "13f15cbf-71ac-45d5-9958-40c275d1055f",
+    "name": "installed_apps",
+    "text": "Installed Apps",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "724cbb73-461d-4b51-9bab-2124d1fd2ba9",
+    "name": "network_ssid",
+    "text": "Network SSID",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "08dc296a-7546-469f-a042-4df204b23221",
+    "name": "call_log",
+    "text": "Call logs",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  }
+]

@@ -131,9 +131,24 @@
     }
   },
   {
-    "id": "bfe5847c-b08a-4bfe-83b6-41ed5c7641d3",
+    "id": "af3a6512-226d-48b4-a901-b7eca01ae196",
     "name": "device_os",
     "text": "Device Operating System",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    }
+  },
+  {
+    "id": "bfe5847c-b08a-4bfe-83b6-41ed5c7641d3",
+    "name": "device_os_version",
+    "text": "Device Operating System Version",
     "type": "NATIVE",
     "valueDef": {
       "type": "STRING",

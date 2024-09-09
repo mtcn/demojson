@@ -13,9 +13,12 @@
     "audience": {
       "name": "uk-males",
       "id": "5fd3481d-9051-4bba-8732-cea6f76cf322",
-      "text": "Males in UK"
+      "text": "Males in UK",
+      "description": "desc",
+      "segmentsJson": "segments"
     },
-    "openEnded": true
+    "openEnded": true,
+    "count": 100
   },
   "medata": [
     {
@@ -82,20 +85,25 @@
     }
   ],
   "survey": {
+    "id": "079933de-3a45-4a33-bb0b-d06a7a4e8954",
     "questions": [
       {
         "question": {
+          "id": "079933de-3a45-4a33-bb0b-d06a7a4e8340",
           "text": "Q1 - A single choice free form input question",
           "name": "question 1 name",
           "valueDef": {
             "type": "STRING",
             "multivalued": false
           },
-          "description": "Some description about Q1"
+          "description": "Some description about Q1",
+          "required": true,
+          "minAnswerTimeMs": 0
         }
       },
       {
         "question": {
+          "id": "079933de-3a45-4a33-bb0b-d06a7a4e8159",
           "text": "Q2 - A multi choice free select question",
           "name": "question 2 name ",
           "valueDef": {
@@ -107,7 +115,9 @@
               "allowOther": false
             }
           },
-          "description": "Some description for Q2"
+          "description": "Some description for Q2",
+          "required": true,
+          "minAnswerTimeMs": 0
         },
         "randomiseAnswers": false
       }

@@ -96,7 +96,7 @@
       {
         "question": {
           "text": "Q2 - A multi choice free select question",
-          "name": "question 2 name",
+          "name": "question 2 name ",
           "valueDef": {
             "type": "STRING",
             "multivalued": true,

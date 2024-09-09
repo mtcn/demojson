@@ -1,0 +1,110 @@
+{
+  "type": "SURVEY",
+  "metadata": {
+    "title": "Mete'e Exchange",
+    "description": "Sample Exchange for Mete",
+    "imageUrl": " https://placehold.co/400"
+  },
+  "audience": {
+    "audience": {
+      "name": "uk-males",
+      "id": "5fd3481d-9051-4bba-8732-cea6f76cf322",
+      "text": "Males in UK"
+    },
+    "openEnded": true
+  },
+  "medata": [
+    {
+      "id": "bc569600-4c4a-4df5-b81b-757cc1fdb35e",
+      "name": "age",
+      "text": "Age",
+      "description": "Age",
+      "type": "QA_BASED",
+      "valueDef": {
+        "type": "NUMBER",
+        "multivalued": false,
+        "enumerated": false
+      },
+      "category": {
+        "id": "1d018548-f642-45fc-8f15-6d20f048ae88",
+        "name": "Identity",
+        "label": "Identity"
+      }
+    },
+    {
+      "id": "b56c89c0-0a27-459e-a3fc-521f861fba95",
+      "name": "country",
+      "text": "Country",
+      "description": "Country of residence",
+      "type": "QA_BASED",
+      "valueDef": {
+        "type": "STRING",
+        "multivalued": false,
+        "enumerated": false
+      },
+      "category": {
+        "id": "1d018548-f642-45fc-8f15-6d20f048ae88",
+        "name": "Identity",
+        "label": "Identity"
+      }
+    },
+    {
+      "id": "079933de-3a45-4a33-bb0b-d06a7a4e8715",
+      "name": "gender",
+      "text": "Gender",
+      "description": "Gender",
+      "type": "QA_BASED",
+      "valueDef": {
+        "type": "STRING",
+        "multivalued": false,
+        "enumerated": true,
+        "enumeratedValues": [
+          {
+            "text": "Male"
+          },
+          {
+            "text": "Female"
+          },
+          {
+            "text": "Other"
+          }
+        ]
+      },
+      "category": {
+        "id": "1d018548-f642-45fc-8f15-6d20f048ae88",
+        "name": "Identity",
+        "label": "Identity"
+      }
+    }
+  ],
+  "survey": {
+    "questions": [
+      {
+        "question": {
+          "text": "Q1 - A single choice free form input question",
+          "valueDef": {
+            "type": "STRING",
+            "multivalued": false
+          },
+          "description": "Some description about Q1"
+        }
+      },
+      {
+        "question": {
+          "text": "Q2 - A multi choice free select question",
+          "valueDef": {
+            "type": "STRING",
+            "multivalued": true,
+            "enumeratedConstraints": {
+              "allowNone": false,
+              "allowIdk": false,
+              "allowOther": false
+            }
+          },
+          "description": "Some description for Q2"
+        },
+        "randomiseAnswers": false
+      }
+    ]
+  }
+}

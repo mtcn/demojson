@@ -85,6 +85,7 @@
       {
         "question": {
           "text": "Q1 - A single choice free form input question",
+          "name": "question 1 name",
           "valueDef": {
             "type": "STRING",
             "multivalued": false
@@ -95,6 +96,7 @@
       {
         "question": {
           "text": "Q2 - A multi choice free select question",
+          "name": "question 2 name",
           "valueDef": {
             "type": "STRING",
             "multivalued": true,

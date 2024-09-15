@@ -12,6 +12,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -27,7 +33,13 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
-    }
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
+    } 
   },
   {
     "id": "11824d0b-384d-4db8-9c2c-05e5b68ef8af",
@@ -42,6 +54,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -57,6 +75,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -85,6 +109,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": true
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -113,6 +143,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": true
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -128,6 +164,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -143,6 +185,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -171,6 +219,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": true
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -186,6 +240,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -201,6 +261,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -216,6 +282,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -231,6 +303,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -246,6 +324,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -267,6 +351,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -313,6 +403,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": true
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -341,6 +437,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": true
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -356,6 +458,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -371,6 +479,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -386,6 +500,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -426,6 +546,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": true
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -441,6 +567,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -475,6 +607,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": true
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -496,6 +634,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -530,6 +674,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": true
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -558,6 +708,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": true
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -586,6 +742,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": true
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -607,6 +769,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -622,6 +790,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -637,6 +811,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -652,6 +832,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -667,6 +853,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -682,6 +874,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -697,6 +895,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -712,6 +916,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -727,6 +937,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -742,6 +958,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   },
   {
@@ -757,6 +979,12 @@
       "enumeratedValueConstraints": null,
       "multivalued": false,
       "enumerated": false
+    },
+    "category": {
+      "id": "3d3f35a0-39e8-40e1-a0d0-d5cdb3821f4f",
+      "name": "Device",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc",
     }
   }
 ]

@@ -1,0 +1,271 @@
+[
+  {
+    "id": "ca8d4869-9742-4d0f-a9a8-af1f9087ad78",
+    "name": "gender",
+    "text": "Gender",
+    "type": "QA_BASED",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": [
+        {
+          "id": "feb5f7c7-8eb8-4b1d-8e47-fae17bd56fc6",
+          "text": "Male",
+          "description": "Male",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "85159a6c-b2a7-4d23-974c-badf8cf51cbc",
+          "text": "Female",
+          "description": "Female",
+          "imageUrl": "https://example.com/image2.jpg"
+        },
+        {
+          "id": "2437f2fe-7cd2-42c5-8943-301b77612acb",
+          "text": "Other",
+          "description": "Other",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": true
+    },
+    "category": {
+      "id": "fe642978-e0a9-4d35-b682-2bbe72c392cb",
+      "name": "Personal",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc"
+    }
+  },
+  {
+    "id": "6c587a8e-eefb-45d2-93b9-7079a6c422ee",
+    "name": "age",
+    "text": "Age",
+    "type": "QA_BASED",
+    "valueDef": {
+      "type": "DATETIME",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    },
+    "category": {
+      "id": "fe642978-e0a9-4d35-b682-2bbe72c392cb",
+      "name": "Personal",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc"
+    }
+  },
+  {
+    "id": "8b8a0e25-f9e2-46f5-9c64-72100f2951fd",
+    "name": "youtube_liked_videos",
+    "text": "Youtube Liked Videos",
+    "type": "INFERRED",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    },
+    "category": {
+      "id": "b7f8cb4c-1236-42d8-a9b7-c72cbafc5b03",
+      "name": "Third-party",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc"
+    }
+  },
+  {
+    "id": "832717e6-099d-4820-abe9-1e73cdcce930",
+    "name": "youtube_subscribed_channels",
+    "text": "Youtube Subscribed Channels",
+    "type": "INFERRED",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    },
+    "category": {
+      "id": "b7f8cb4c-1236-42d8-a9b7-c72cbafc5b03",
+      "name": "Third-party",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc"
+    }
+  },
+  {
+    "id": "a1ff907a-246d-4b54-97b9-7e148215232f",
+    "name": "geo_location",
+    "text": "Geo Location",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    },
+    "category": {
+      "id": "fe642978-e0a9-4d35-b682-2bbe72c392cb",
+      "name": "Personal",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc"
+    }
+  },
+  {
+    "id": "0c96c861-c05b-45a7-952e-bd109437c76b",
+    "name": "total_calorie_burned",
+    "text": "Total Calorie Burned",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    },
+    "category": {
+      "id": "69d6c02d-7cf1-423c-a703-d31fa93d8a54",
+      "name": "Health",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc"
+    }
+  },
+  {
+    "id": "5d2e963d-cf0c-4d67-b0c4-3ce944d41efc",
+    "name": "weight",
+    "text": "Latest Weight",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    },
+    "category": {
+      "id": "69d6c02d-7cf1-423c-a703-d31fa93d8a54",
+      "name": "Health",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc"
+    }
+  },
+  {
+    "id": "32b26ebb-ae24-455b-a4e6-ceeba7d93680",
+    "name": "height",
+    "text": "Latest Height",
+    "type": "NATIVE",
+    "valueDef": {
+      "type": "OBJECT",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": null,
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": false
+    },
+    "category": {
+      "id": "69d6c02d-7cf1-423c-a703-d31fa93d8a54",
+      "name": "Health",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc"
+    }
+  },
+  {
+    "id": "8b7df845-65e4-4d24-bb6e-94aed98ec68a",
+    "name": "allergies",
+    "text": "Allergies",
+    "type": "QA_BASED",
+    "valueDef": {
+      "type": "STRING",
+      "constraints": null,
+      "multiValueConstraints": null,
+      "enumeratedValues": [
+        {
+          "id": "c8c5394c-a0f7-400c-a845-b0a4d5de0a9d",
+          "text": "Peanut",
+          "description": "Peanut",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": "e3ca988a-3f8a-4e31-9d66-c1eef60fff8c",
+          "text": "Gluten",
+          "description": "Gluten",
+          "imageUrl": "https://example.com/image2.jpg"
+        },
+        {
+          "id": "f26ecdac-0ed7-4026-ad8e-3f71e3e203aa",
+          "text": "Milk",
+          "description": "Milk",
+          "imageUrl": "https://example.com/image3.jpg"
+        },
+        {
+          "id": "a45c917b-dc91-4c1f-9e72-bba392c3f33b",
+          "text": "Egg",
+          "description": "Egg",
+          "imageUrl": "https://example.com/image4.jpg"
+        },
+        {
+          "id": "9b7b2079-3d4d-4c3d-84cf-d4a6e72f1b88",
+          "text": "Soy",
+          "description": "Soy",
+          "imageUrl": "https://example.com/image5.jpg"
+        },
+        {
+          "id": "c1f27fa9-e0e7-4b4a-a763-7c79b591b99d",
+          "text": "Shellfish",
+          "description": "Shellfish",
+          "imageUrl": "https://example.com/image6.jpg"
+        },
+        {
+          "id": "0d59f6e2-2f2d-4e1f-bf1a-547c8d7be74d",
+          "text": "Fish",
+          "description": "Fish",
+          "imageUrl": "https://example.com/image8.jpg"
+        },
+        {
+          "id": "ce6fa374-9942-4534-937d-e365a9d82c47",
+          "text": "Wheat",
+          "description": "Wheat",
+          "imageUrl": "https://example.com/image9.jpg"
+        },
+        {
+          "id": "3c2df9f2-7310-4eb3-b345-01adf4d20667",
+          "text": "Sesame",
+          "description": "Sesame",
+          "imageUrl": "https://example.com/image10.jpg"
+        },
+        {
+          "id": "7d024098-53f7-40a2-b635-fd8c1a892dc3",
+          "text": "Other",
+          "description": "Other",
+          "imageUrl": "https://example.com/image7.jpg"
+        }
+      ],
+      "enumeratedValueConstraints": null,
+      "multivalued": false,
+      "enumerated": true
+    },
+    "category": {
+      "id": "69d6c02d-7cf1-423c-a703-d31fa93d8a54",
+      "name": "Health",
+      "iconUrl": "https://google.com/img",
+      "description": "category desc"
+    }
+  }
+]

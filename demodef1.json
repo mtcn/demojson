@@ -258,7 +258,7 @@
         }
       ],
       "enumeratedValueConstraints": null,
-      "multivalued": false,
+      "multivalued": true,
       "enumerated": true
     },
     "category": {

@@ -188,8 +188,8 @@
   },
   {
     "id": "ed9fa55b-d287-4074-a379-a376755f41e4",
-    "name": "healthy_food_preferences",
-    "text": "Health food preferences",
+    "name": "meal_preferences",
+    "text": "Meal preferences",
     "type": "QA_BASED",
     "valueDef": {
       "type": "STRING",
